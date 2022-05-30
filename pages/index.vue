@@ -38,7 +38,7 @@
               </thead>
               <tbody>
                 <!-- @foreach ($products as $key => $product) -->
-                <tr v-for="task in tasks">
+                <tr v-for="prod in prods">
                   <th scope="row">1</th>
                   <!-- <td>{{ $product->name }}</td> -->
                   <!-- <td>Rs.{{ $product->price }}</td> -->
